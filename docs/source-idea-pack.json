@@ -1,0 +1,11 @@
+{
+  "createdIdea": "D:\\AI\\UnityEditor\\created_idea_001_unity-quality-dependency-import-audit",
+  "zip": "D:\\AI\\UnityEditor\\created_idea_001_unity-quality-dependency-import-audit\\idea_001_unity-quality-dependency-import-audit.zip",
+  "rank": 32,
+  "domain": "UnityEditor",
+  "ideaNo": 1,
+  "title": "Unity品質・依存・Import・性能監査",
+  "overview": "アセット検品、品質スコア、Import設定、依存関係、性能診断をUnity Editor内でまとめて確認する。",
+  "problem": "Unity制作では品質、依存、Import、性能の問題が別々に見つかり、修正順を決めづらい。",
+  "differentiation": "プロジェクトの健康状態を1つの検品結果として出し、次の修正候補まで示す。"
+}

@@ -1,0 +1,10 @@
+{
+  "name": "com.sunmax0731.unity-quality-dependency-import-audit",
+  "version": "0.1.0",
+  "displayName": "Unity品質・依存・Import・性能監査",
+  "description": "アセット検品、品質スコア、Import設定、依存関係、性能診断をUnity Editor内でまとめて確認する。",
+  "unity": "2022.3",
+  "author": {
+    "name": "Sunmax0731"
+  }
+}
