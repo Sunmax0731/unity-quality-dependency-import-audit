@@ -1,0 +1,118 @@
+[
+  {
+    "id": "happy-path",
+    "purpose": "正常な入力が passed になることを確認する。",
+    "expected": {
+      "result": "passed",
+      "errors": 0,
+      "warnings": 0
+    },
+    "items": [
+      {
+        "id": "ok-1",
+        "title": "Unity品質・依存・Import・性能監査 正常ケース",
+        "source": "source-ok",
+        "assetPath": "assetPath-ok",
+        "importSetting": "importSetting-ok",
+        "dependency": "dependency-ok",
+        "owner": "owner-ok",
+        "acceptance": "acceptance-ok",
+        "status": "ready",
+        "performanceBudget": "ready"
+      }
+    ]
+  },
+  {
+    "id": "missing-required",
+    "purpose": "必須項目不足を error として検出する。",
+    "expected": {
+      "result": "failed",
+      "errors": 1,
+      "warnings": 0
+    },
+    "items": [
+      {
+        "id": "missing-1",
+        "title": "必須項目不足ケース",
+        "source": "",
+        "assetPath": "assetPath-ok",
+        "importSetting": "importSetting-ok",
+        "dependency": "dependency-ok",
+        "owner": "owner-ok",
+        "acceptance": "acceptance-ok",
+        "status": "ready",
+        "performanceBudget": "ready"
+      }
+    ]
+  },
+  {
+    "id": "warning",
+    "purpose": "blocked 状態と推奨項目不足を warning として検出する。",
+    "expected": {
+      "result": "warning",
+      "errors": 0,
+      "warnings": 2
+    },
+    "items": [
+      {
+        "id": "warning-1",
+        "title": "warning ケース",
+        "source": "source-ok",
+        "assetPath": "assetPath-ok",
+        "importSetting": "importSetting-ok",
+        "dependency": "dependency-ok",
+        "owner": "owner-ok",
+        "acceptance": "acceptance-ok",
+        "status": "blocked",
+        "performanceBudget": ""
+      }
+    ]
+  },
+  {
+    "id": "mixed-batch",
+    "purpose": "正常、必須項目不足、warning の混在バッチを集計する。",
+    "expected": {
+      "result": "failed",
+      "errors": 1,
+      "warnings": 2
+    },
+    "items": [
+      {
+        "id": "ok-1",
+        "title": "Unity品質・依存・Import・性能監査 正常ケース",
+        "source": "source-ok",
+        "assetPath": "assetPath-ok",
+        "importSetting": "importSetting-ok",
+        "dependency": "dependency-ok",
+        "owner": "owner-ok",
+        "acceptance": "acceptance-ok",
+        "status": "ready",
+        "performanceBudget": "ready"
+      },
+      {
+        "id": "missing-1",
+        "title": "必須項目不足ケース",
+        "source": "",
+        "assetPath": "assetPath-ok",
+        "importSetting": "importSetting-ok",
+        "dependency": "dependency-ok",
+        "owner": "owner-ok",
+        "acceptance": "acceptance-ok",
+        "status": "ready",
+        "performanceBudget": "ready"
+      },
+      {
+        "id": "warning-1",
+        "title": "warning ケース",
+        "source": "source-ok",
+        "assetPath": "assetPath-ok",
+        "importSetting": "importSetting-ok",
+        "dependency": "dependency-ok",
+        "owner": "owner-ok",
+        "acceptance": "acceptance-ok",
+        "status": "blocked",
+        "performanceBudget": ""
+      }
+    ]
+  }
+]

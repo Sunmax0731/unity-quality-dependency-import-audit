@@ -1,0 +1,20 @@
+{
+  "product": {
+    "repository": "unity-quality-dependency-import-audit",
+    "title": "Unity品質・依存・Import・性能監査"
+  },
+  "items": [
+    {
+      "id": "ok-1",
+      "title": "Unity品質・依存・Import・性能監査 正常ケース",
+      "source": "source-ok",
+      "assetPath": "assetPath-ok",
+      "importSetting": "importSetting-ok",
+      "dependency": "dependency-ok",
+      "owner": "owner-ok",
+      "acceptance": "acceptance-ok",
+      "status": "ready",
+      "performanceBudget": "ready"
+    }
+  ]
+}
