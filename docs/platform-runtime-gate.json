@@ -1,0 +1,11 @@
+{
+  "product": "unity-quality-dependency-import-audit",
+  "title": "Unity品質・依存・Import・性能監査",
+  "domain": "UnityEditor",
+  "ideaNo": 1,
+  "platformType": "unity-editor-package",
+  "expectedPublicTarget": "GitHub Release / BOOTH",
+  "browser": null,
+  "android": null,
+  "evidence": "dist/platform-runtime-gate-result.json"
+}
